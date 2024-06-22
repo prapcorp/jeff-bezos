@@ -1,5 +1,6 @@
 # jeff-bezos
-![jeff](https://github.com/prapcorp/jeff-bezos/assets/138362347/b303d2fd-996b-4347-b172-42ae23edda57)
+![Screenshot (32)](https://github.com/prapcorp/jeff-bezos/assets/138362347/05906a99-b50a-471b-a0cd-9f6d8a60a5bb)
+
 
 
 
