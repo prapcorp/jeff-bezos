@@ -1,0 +1,135 @@
+body {
+    background-color: black;
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FCAF02;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.navbar ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.navbar li {
+    padding: 15px;
+    color: black;
+}
+.navbar .start {
+    font-weight: bold;
+}
+.navbar .up {
+    font-weight: bold;
+    text-decoration: underline;
+}
+.navbar .leftSide {
+    font-size: 13px;
+}
+.container {
+    padding: 15px;
+}
+.layout {
+    display: flex;
+    margin-bottom: 20px;
+}
+.content {
+    flex: 1;
+    margin-right: 20px;
+}
+.content h1 {
+    font-size: 22px;
+}
+.content p {
+    font-size: 15px;  
+}
+.btn {
+    width: 90px;
+    background-color: #FCAF02;
+    border-radius: 12px;
+    padding: 5px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    color: black;
+}
+.btn:hover {
+    background-color: #e09b01;
+}
+.images {
+    height: 220px;
+    width: 300px;
+    transform: scaleX(-1); /* This flips the image horizontally */
+}
+.contact h1 {
+    color: #FCAF02;
+}
+.data {
+    display: block;
+    width: calc(100% - 20px);
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 12px;
+    border: 1px solid #FCAF02;
+    background-color: black;
+    color: #FCAF02;
+}
+.data-half {
+    width: calc(50% - 20px);
+    margin-left: 8px;
+}
+.inps {
+    display: flex;
+    justify-content: space-between;
+}
+.submit-btn {
+    width: 120px;
+    background-color: #FCAF02;
+    border-radius: 12px;
+    padding: 5px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    color: black;
+}
+.submit-btn:hover {
+    background-color: #e09b01;
+}
+.tables {
+    color: #FCAF02;
+    font-size: 12px;
+    margin-top: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #FCAF02;
+    text-align: left;
+    padding: 8px;
+}
+th {
+    background-color: black;
+    color: #FCAF02;
+}
+tfoot td {
+    background-color: #FCAF02;
+    color: black;
+}
+.no {
+    text-align: center;
+}
+.data::placeholder {
+color: #FCAF02; /* Color for placeholder text */
+}
